@@ -22,17 +22,17 @@ const list = [
 function App() {
   return (
     <div>
-      <h1>Trial 1</h1>
+      <div>Market</div>
+      <div>Trade</div>
+      <div>About</div>
+      <hr/>
+
+
 
       <label htmlFor="search">Search: </label>
       <input id="search" type="text" />
-      <hr />
-
-      {list.map(function (item) {
-        return <div>{item.title}</div>;
-      })}
-
-    </div>
+      
+      </div>
   );
 }
 export default App;
